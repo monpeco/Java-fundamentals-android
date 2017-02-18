@@ -30,4 +30,7 @@ public class Account {
         balance = balance + _deposit;
     }
 
+    public String toString(){
+        return "\nname: " + name + "\naccount: "+ accountNumber + "\nbalance:" + balance;
+    }
 }
