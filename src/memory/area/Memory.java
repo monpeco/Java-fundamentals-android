@@ -19,3 +19,26 @@ public class Memory {
 }
 
 //garbage collector reclaims heap memory
+
+/*  Java Heap Space
+
+        • Java Heap space is used by java runtime to
+        allocate memory to Objects and JRE classes.
+        • Garbage Collection runs on the heap memory
+        to free the memory used by objects that
+        doesn’t have any reference.
+        • Any object created in the heap space has
+        global access and can be referenced from
+        anywhere of the application.
+
+
+    Java Stack Memory
+
+        • Java Stack memory is used for execution of a
+        thread.
+        • They contain method specific values that are
+        short-lived and references to other objects in
+        the heap that are getting referred from the
+        method.
+        • Stack memory is always referenced in LIFO
+*/
