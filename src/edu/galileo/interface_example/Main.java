@@ -9,5 +9,21 @@ public class Main{
         Car taxi = new Car(4);
         System.out.println("Taxi has wheels? " + taxi.hasWheels());
         System.out.println("Number of wheels? " + taxi.getNumberOfWheels());
+
+        PokerCard eigthOfSpades = new PokerCard(4,8);
+        PokerCard tenOfHearts = new PokerCard(3,10);
+        PokerCard tenOfClubs = new PokerCard(2,10);
+
+        System.out.println(eigthOfSpades.compareTo(tenOfHearts));
+        System.out.println(tenOfHearts.compareTo(tenOfClubs));
+        System.out.println(eigthOfSpades.compareTo(eigthOfSpades));
+
+        /*output:
+            Taxi has wheels? true
+            Number of wheels? 4
+            -1
+            1
+            0
+        */
     }
 }
