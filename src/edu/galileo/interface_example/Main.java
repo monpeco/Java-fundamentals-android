@@ -10,13 +10,13 @@ public class Main{
         System.out.println("Taxi has wheels? " + taxi.hasWheels());
         System.out.println("Number of wheels? " + taxi.getNumberOfWheels());
 
-        PokerCard eigthOfSpades = new PokerCard(4,8);
+        PokerCard eightOfSpades = new PokerCard(4,8);
         PokerCard tenOfHearts = new PokerCard(3,10);
         PokerCard tenOfClubs = new PokerCard(2,10);
 
-        System.out.println(eigthOfSpades.compareTo(tenOfHearts));
+        System.out.println(eightOfSpades.compareTo(tenOfHearts));
         System.out.println(tenOfHearts.compareTo(tenOfClubs));
-        System.out.println(eigthOfSpades.compareTo(eigthOfSpades));
+        System.out.println(eightOfSpades.compareTo(eightOfSpades));
 
         /*output:
             Taxi has wheels? true
